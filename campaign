@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Midnite Trafficking</title>
+    <script src="script/form.js" async></script>
+    <script src="script/server/campaign_api.js" async></script>
+</head>
+
+<body>
+    <div id="logo">
+        <img src="img/logo-horizontal-white.svg" alt="Midnite Logo">
+    </div>
+    <h1>Create Campaign</h1>
+
+
+    <div id="form1">
+    <form>
+        <label for="campaignName">Campaign Name: </label>
+        <input type="text" name="CampaignName" id="campaignName" maxlength="100">
+
+        <label for="startDate">Start Date</label>
+        <input type="date" name="startDate" id="startDate" value="">
+
+        <label for="endDate">End Date</label>
+        <input type="date" name="endDate" id="endDate" value="">
+
+
+        <input type="submit" value="submit" id="submit">
+
+
+
+    </form>
+    </div>
+
+</body>
+</html>
