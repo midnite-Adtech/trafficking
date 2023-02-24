@@ -1,0 +1,25 @@
+html {
+    background-color: #20252c;
+    
+}
+
+body {
+    margin: 1em;
+}
+
+#logo img {
+    height:  100px;
+    width: 300px;
+
+}
+
+#form1 {
+    border: 2px solid rgb(105, 253, 105);
+    border-radius: 1%;
+    height: 600px;
+    width: 800px;
+    padding: 20px;
+    color: white;
+    background-color: #323841;
+
+}
